@@ -1,2 +1,2 @@
-# Plaimanas_Frontend
-Frontend Test
+# Plaimanas | Frontend Test
+Chuttarin Limsuchat
