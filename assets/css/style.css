@@ -1,15 +1,23 @@
-*,
-body {
-    font-family: "Arial", sans-serif !important;
+html {
+    font-family: Arial, sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400 !important;
+    font-weight: 400 ;
     font-style: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  font-family: inherit;
 }
 
 .heading {
-    font-family: "Hanken Grotesk", sans-serif !important;
+    font-family: "Hanken Grotesk", Arial, sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
 }
 
@@ -21,7 +29,6 @@ body {
     color: #000000 !important;
     text-transform: uppercase;
     font-size: 13px !important;
-    font-weight: 400 !important;
 }
 
 
@@ -100,7 +107,6 @@ button {
 .footer-copy-right p {
     color: #000000 !important;
     font-size: 12px !important;
-    font-weight: 400;
 }
 
 /* --- End Footer Copy Right --- */
@@ -131,7 +137,6 @@ button {
 }
 
 .make-an-inquiry p {
-    font-weight: 400;
     font-size: 14px !important;
 }
 
@@ -166,7 +171,6 @@ button {
 .form-send input,
 select {
     font-size: 14px !important;
-    font-weight: 400;
 }
 
 .input-fullname,
@@ -198,7 +202,6 @@ select {
     background-color: #000000;
     color: #FFFFFF;
     font-size: 16px !important;
-    font-weight: 400;
     width: 140px;
     height: 52px;
     border: none;
@@ -258,7 +261,6 @@ select {
 .p-16-white {
     color: #FFFFFF;
     font-size: 16px !important;
-    font-weight: 400;
 }
 
 .faq-buttons {
@@ -335,7 +337,6 @@ select {
 .navbar-nav .nav-link {
     display: inline-block !important;
     font-size: 13px !important;
-    font-weight: 400;
     color: #000000 !important;
     line-height: 1;
     transition:
@@ -389,7 +390,6 @@ select {
 .dropdown-menu a {
     color: #000000 !important;
     font-size: 13px !important;
-    font-weight: 400;
 }
 
 .dropdown a:hover {
@@ -405,7 +405,6 @@ select {
 .navbar-sign-in .nav-link {
     color: #000000 !important;
     font-size: 13px !important;
-    font-weight: 400;
 }
 
 /* Editorial Hover */
@@ -457,7 +456,6 @@ body.editorial-open::after {
     display: block;
     color: #ffffff !important;
     font-size: 13px !important;
-    font-weight: 400;
     padding: 8px 16px;
     text-decoration: none;
     transition: font-size 0.3s ease, font-weight 0.3s ease;
@@ -466,7 +464,6 @@ body.editorial-open::after {
 
 .editorial-dropdown li a:hover {
     font-size: 14px !important;
-    font-weight: 400;
 }
 
 /* --- End Navbar --- */
@@ -482,7 +479,6 @@ body.editorial-open::after {
 .p-content {
     color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
-    font-weight: 400;
 }
 /* --- End New Arrival Contents */
 
